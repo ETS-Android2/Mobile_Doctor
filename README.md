@@ -3,6 +3,9 @@
 
 It is android application where Doctor's diagnosis for patient's particular disease is digitized.
 
+# Youtube Video
+https://www.youtube.com/watch?v=QvghWxjSCdM
+
 ## Technologies Used
 * Retrofit 
 * Swing(QR Code Generator) Library
