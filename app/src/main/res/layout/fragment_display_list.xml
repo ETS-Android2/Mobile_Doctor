@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.codex_pc.mob_dco.DisplayListFragment">
+    tools:context="com.example.codex_pc.mob_dco.fragments.DisplayListFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

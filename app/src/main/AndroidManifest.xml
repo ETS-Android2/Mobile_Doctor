@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -36,26 +36,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PatientSignUp" />
-        <activity android:name=".DoctorLogin" />
+        <activity android:name=".activity.PatientSignUpActivity" />
+        <activity android:name=".activity.DoctorLoginActivity" />
         <activity
-            android:name=".DocterActivity"
+            android:name=".activity.DocterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PatientSignIn" />
+        <activity android:name=".activity.PatientSignInActivity" />
         <activity
-            android:name=".CaptureActivit"
+            android:name=".activity.CaptureActivity"
             android:screenOrientation="portrait"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".fPatientActivity2"
+            android:name=".activity.fPatientActivity2"
             android:label="@string/title_activity_f_patient2"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PateintDiagnosisDoctor" />
+        <activity android:name=".activity.PateintDiagnosisDoctorActivity" />
         <activity
-            android:name=".About"
+            android:name=".activity.AboutActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
@@ -63,10 +63,10 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".SymptomCheckingActivity"
+            android:name=".activity.SymptomCheckingActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".DisplayDiagnosis" />
-        <activity android:name=".DetailedDiagnosis" />
+        <activity android:name=".activity.DisplayDiagnosisActivity" />
+        <activity android:name=".activity.DetailedDiagnosisActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -80,11 +80,11 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".activity.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".AddDish" />
-        <activity android:name=".Exercise" />
-        <activity android:name=".PieChart"></activity>
+        <activity android:name=".activity.AddDishActivity" />
+        <activity android:name=".activity.ExerciseActivity" />
+        <activity android:name=".activity.PieChartActivity"></activity>
     </application>
 
 </manifest>

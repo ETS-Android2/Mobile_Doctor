@@ -5,7 +5,7 @@
     android:id="@+id/cordinate"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.codex_pc.mob_dco.fPatientActivity2">
+    tools:context="com.example.codex_pc.mob_dco.activity.fPatientActivity2">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

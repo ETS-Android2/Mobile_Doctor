@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.codex_pc.mob_dco.Exercise">
+    tools:context="com.example.codex_pc.mob_dco.activity.ExerciseActivity">
 
     <EditText
         android:id="@+id/inputexcise"
